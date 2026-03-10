@@ -12,4 +12,4 @@ Oscar: 1
 Jesús: 2, 3
 Miguel: 4
 
-### Esta es la rama principal
+### Esta es la rama de trabajo de Oscar
