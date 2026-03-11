@@ -1,13 +1,12 @@
-//Acceso a un sistema
+// Acceso a un sistema
 
-let usuario = "admin";
-let contraseña = "1234";
+let usuario = prompt("Ingrese su usuario:");
+let contraseña = prompt("Ingrese su contraseña:");
 
 if (usuario === "admin" && contraseña === "1234") {
-    console.log("Acceso permitido");
+    alert("Acceso PERMITIDO");
 } else {
-    console.log("Acceso denegado");
+    alert("Acceso DENEGADO");
 }
 
-//Se usa el operador lógico AND (&&), porque las dos
-//condiciones deben cumplirse al mismo tiempo
+//Se modifica como lo recomendado, entrada por usuario. 
